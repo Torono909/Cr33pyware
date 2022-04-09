@@ -19,6 +19,6 @@
 ` Faxhax ` 
 ` SSLWasTaken `
 
-##### Updates:
-Removed HWID Blah blah blah
+## Updates:
+##### Removed HWID Blah blah blah
 
