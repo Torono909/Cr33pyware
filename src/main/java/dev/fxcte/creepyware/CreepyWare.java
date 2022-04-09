@@ -19,12 +19,12 @@ import java.io.InputStream;
 import java.nio.ByteBuffer;
 
 
-@Mod (modid = "creepyware", name = "Creepyware", version = "b0.2.0")
+@Mod (modid = "creepyware", name = "Creepyware", version = "b0.2.1")
 public
 class CreepyWare {
     public static final String MODID = "creepyware";
     public static final String MODNAME = "Creepyware";
-    public static final String MODVER = "b0.2.0";
+    public static final String MODVER = "b0.2.1";
     public static final Logger LOGGER = LogManager.getLogger("Creepyware");
     public static ModuleManager moduleManager;
     public static SpeedManager speedManager;
@@ -185,7 +185,6 @@ class CreepyWare {
     @Mod.EventHandler
     public
     void init(FMLInitializationEvent event) {
-        HWIDManager.hwidCheck();
         this.setWindowsIcon();
         customMainScreen = new GuiCustomMainScreen();
         MinecraftForge.EVENT_BUS.register(new TitleUtils());
