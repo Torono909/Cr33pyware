@@ -18,3 +18,7 @@
 ` Kuro_Here `
 ` Faxhax ` 
 ` SSLWasTaken `
+
+##### Updates:
+Removed HWID Blah blah blah
+
